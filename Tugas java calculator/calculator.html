@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>membuat calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="cont">
+        <div class="calsi">
+        <input type="text" id="inp">
+        <div class="btns">
+            <table>  
+                <tr>
+                    <td><input type="button" class="button kalikur" value="C" onclick="cls()"></td>
+                    <td><input type="button" class="btns del" value="Del" onclick="cancel()"></td>
+                    <td><input type="button" class="button kalikur" value="x" onclick="AT_add('*')"></td>
+                    <td><input type="button" class="button kalikur" value="/" onclick="AT_add('/')"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="btns klik" value="7" onclick="AT_add(7)"></td>
+                    <td><input type="button" class="btns klik" value="8" onclick="AT_add(8)"></td>
+                    <td><input type="button" class="btns klik" value="9" onclick="AT_add(9)"></td>
+                    <td><input type="button" class="button kalikur" value="-" onclick="AT_add('-')"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="btns klik" value="4" onclick="AT_add(4)"></td>
+                    <td><input type="button" class="btns klik" value="5" onclick="AT_add(5)"></td>
+                    <td><input type="button" class="btns klik" value="6" onclick="AT_add(6)"></td>
+                    <td><input type="button" class="button kalikur" value="+" onclick="AT_add('+')"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="btns klik" value="1" onclick="AT_add(1)"></td>
+                    <td><input type="button" class="btns klik" value="2" onclick="AT_add(2)"></td>
+                    <td><input type="button" class="btns klik" value="3" onclick="AT_add(3)"></td>
+                    <td rowspan="2"><input type="button" class=" btns tea" value="=" onclick="exe()"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="button" class="bttn abi" value="0" onclick="AT_add(0)"></td>
+                    <td><input type="button" class="button kalikur" value="." onclick="AT_add('.')"></td>
+                </tr>
+            </table>
+        </div>
+        <script src="script.js"></script>  
+</body>
+</html>

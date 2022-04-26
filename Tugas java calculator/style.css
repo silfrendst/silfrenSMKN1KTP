@@ -1,0 +1,91 @@
+body{
+    background-image: url(bg.jpg);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cont{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.calsi{
+    width: 250px;
+    height: 400px;
+    background: gray;
+    padding: 10px;
+    border-radius: 20px;
+   
+}
+
+#inp{
+    width: 220px;
+    height: 40px;
+    font-size: 22px;
+    padding: 5px;
+    margin-top: 15px;
+    border-radius: 10px;
+
+}
+
+.btns{
+    width: 60px;
+    height: 50px;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+
+.tea{
+    height: 110px;
+}
+
+.tea:hover{
+    font-size: 22px;
+    background: gold;
+    color: white;
+}
+
+.del:hover{
+    background: red;
+    color: white;
+}
+
+.klik:hover{
+    background-color: rgb(212, 188, 188);
+    color: white;
+}
+
+.abi:hover{
+    background-color: rgb(212, 188, 188);
+    color: white;
+}
+
+.bttn{
+    width: 110px;
+    height: 50px;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+
+.button{
+    width: 60px;
+    height: 50px;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+
+.kalikur:hover{
+    background-color: green;
+    color: white;
+}
